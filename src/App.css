@@ -1,0 +1,223 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/*-----------Footer component---------------------------*/
+.footer {
+  background-color: rgb(65, 63, 63);
+  height: 20vh;
+  color: white;
+  font-family: "Poppins", sans-serif;
+}
+
+/*----------------------Navigation Bar-----------------------------*/
+.nav-container {
+  width: 100%;
+  height: fit-content;
+  box-shadow: 0 8px 6px -6px gray;
+  --webkit-box-shadow: 0 8px 6px -6px gray;
+  border-bottom: 0.5px solid gray;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 4rem;
+  padding-right: 4rem;
+}
+
+.list-content ul {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 120%;
+  height: 100%;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+.list-content ul li {
+  margin: 1rem;
+  list-style: none;
+}
+
+.list-content ul li a {
+  text-decoration: none;
+  font-family: "Poppins", sans-serif;
+  color: orange;
+  font-weight: bold;
+  font-size: 1.1rem;
+  transition: all 0.3s ease-in-out;
+}
+.list-content ul li a:hover {
+  border-bottom: 3px solid orange;
+}
+.auth-cart {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.log-sign {
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  padding: 1rem;
+  gap: 0.5rem;
+  display: flex;
+  justify-content: space-between;
+}
+.log-sign button {
+  background-color: orange;
+  border: none;
+  padding: 0.7rem 0.9rem;
+  border-radius: 0.4rem;
+}
+.log-sign button a {
+  text-decoration: none;
+  color: white;
+  font-family: "Poppins", sans-serif;
+}
+
+.active-link {
+  border-bottom: 3px solid orange;
+}
+
+/*----------------------------Page not Found------------------------*/
+.pageNotFound {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 80vh;
+  flex-direction: column;
+  font-family: "Poppins", sans-serif;
+}
+.pageNotFound h2 {
+  margin-bottom: 2rem;
+  font-size: 3rem;
+  font-weight: 200;
+}
+.pageNotFound button {
+  background-color: orange;
+  padding: 1rem 1.5rem;
+  border: none;
+  border-radius: 1rem;
+  transition: all 0.4s ease-in-out;
+}
+.pageNotFound button a {
+  font-size: 1.5rem;
+  color: white;
+  text-decoration: none;
+}
+.pageNotFound button:hover {
+  background-color: rgb(225, 118, 24);
+}
+
+/*------------------------register page-------------------------------*/
+.register-container {
+  display: flex;
+  height: 100vh; /* Set the height to 100% of the viewport height */
+}
+
+.form-container {
+  flex: 1; /* Take up half of the available width */
+  padding: 20px; /* Add padding as needed */
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.static-img-container {
+  flex: 1; /* Take up the other half of the available width */
+  background-color: #f0f0f0; /* Set a background color or add your image */
+  background-size: cover; /* Ensure the background covers the entire container */
+}
+
+.form-mediator {
+  background-color: aliceblue;
+  padding: 2rem;
+  height: 50vh;
+}
+
+/*Input Name*/
+.input-field-name {
+  display: flex;
+  flex-wrap: wrap;
+}
+.input-field-name .first-name,
+.input-field-name .last-name {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+}
+.input-field-name .input-name {
+  display: flex;
+  gap: 1rem;
+}
+
+/*Email Section*/
+.email-section {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+#email {
+  padding: 0.5rem 0.8rem;
+  width: 50%;
+  border-bottom: 3px solid gray;
+  border: none;
+}
+
+/*Phone section*/
+.phone-section {
+  display: flex;
+  flex-direction: column;
+}
+.divider-phone {
+  display: flex;
+  gap: 1rem;
+}
+
+/*Password Section*/
+.password-section {
+  display: flex;
+  flex-direction: column;
+}
+.init-con-pass {
+  display: flex;
+  gap: 1rem;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+/*Submit*/
+.submit-btn {
+  display: flex;
+  justify-content: center;
+  margin: 1rem 0;
+}
+
+/*----------------------------Login-------------------------*/
+.login-container {
+  display: flex;
+  height: 100vh; /* Set the height to 100% of the viewport height */
+}
+
+.login-div-container {
+  flex: 1; /* Take up half of the available width */
+  padding: 20px; /* Add padding as needed */
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.login-img-container {
+  flex: 1; /* Take up the other half of the available width */
+  background-color: #f0f0f0; /* Set a background color or add your image */
+  background-size: cover; /* Ensure the background covers the entire container */
+}
