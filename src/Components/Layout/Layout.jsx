@@ -8,6 +8,7 @@ import 'react-toastify/dist/ReactToastify.css';
 
 // Props Destructuring
 const Layout = ({ children, title, description, keywords, author }) => {
+
   return (
     <div>
       {/* Helmet is actually a react library which is a requirement to maintain a proper SEO, 

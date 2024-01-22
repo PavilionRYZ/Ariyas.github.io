@@ -25,7 +25,7 @@ const Layout2 = ({ children, title, description, keywords, author }) => {
     </>
   )
 }
-// Providing Default props to ensure that the pages we do not add the dynamic title nature, it will automatically use these basic details as the title orr any other detail that is required and we do not want to change it -> This is done for the react library (Helmet) that we are currently using
+// Providing Default props to ensure that the pages we do not add the dynamic title nature, it will automatically use these basic details as the title or any other detail that is required and we do not want to change it -> This is done from the react library (Helmet) that we are currently using
 Layout2.defaultProps = {
   title: "Ariyas | Namaste Everyone",
   description: "Traditions that value",

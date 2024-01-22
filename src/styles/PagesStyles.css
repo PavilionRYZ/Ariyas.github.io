@@ -1,0 +1,141 @@
+.container {
+  background-image: linear-gradient(
+      to right,
+      rgba(0, 0, 0, 0.486),
+      rgba(0, 0, 0, 0.605)
+    ),
+    url("../images/bg-images/AdobeStock_627487361_Preview.jpeg");
+  width: 100%;
+  height: 90vh;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  transition: 5s;
+  background-repeat: no-repeat;
+
+  animation-name: animate;
+  animation-direction: alternate-reverse;
+  animation-duration: 10s;
+  animation-fill-mode: forwards;
+  animation-iteration-count: infinite;
+  animation-play-state: running;
+  animation-timing-function: ease-in-out;
+}
+
+@keyframes animate {
+  0% {
+    background-image: url("../images/bg-images/AdobeStock_281663201_Preview.jpeg");
+  }
+  20% {
+    background-image: url("../images/bg-images/AdobeStock_298125805_Preview.jpeg");
+  }
+  40% {
+    background-image: url("../images/bg-images/AdobeStock_596562754_Preview.jpeg");
+  }
+  60% {
+    background-image: url("../images/bg-images/AdobeStock_326340898_Preview.jpeg");
+  }
+  80% {
+    background-image: url("../images/bg-images/AdobeStock_307479561_Preview.jpeg");
+  }
+  100% {
+    background-image: url("../images/bg-images/AdobeStock_435531937_Preview.jpeg");
+  }
+}
+
+.title-container {
+  font-family: "Poppins", sans-serif;
+  color: white;
+  height: 90vh;
+}
+.title-container h1 {
+  padding-top: 18rem;
+  font-size: 4rem;
+  font-weight: bolder;
+  line-height: 1;
+  margin-bottom: 3rem;
+}
+.title-container span,
+.title-container p {
+  letter-spacing: 2px;
+}
+.title-container p {
+  line-height: 1.2;
+  margin-bottom: 3rem;
+}
+@keyframes changeColor {
+  0% {
+    color: rgb(232, 186, 99);
+  }
+  25% {
+    color: orange;
+  }
+  50% {
+    color: rgb(255, 149, 0);
+  }
+  75% {
+    color: rgb(255, 111, 0);
+  }
+  100% {
+    color: orangered;
+  }
+}
+.title-container span {
+  animation: changeColor 5s infinite;
+}
+
+.btn-shop {
+  padding: 0.5rem 0.8rem;
+  font-size: 1.3rem;
+  text-decoration: none;
+  letter-spacing: 2px;
+  border-radius: 0.9rem;
+  border: none;
+  transition: background-color 0.4s ease-in-out;
+}
+.btn-shop:hover {
+  background-color: orange;
+}
+.main-container {
+  margin: 0 15rem;
+}
+
+/*Sales Section*/
+.sales-container {
+  width: 100%;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.486);
+  margin-top: 10rem;
+  font-family: "Poppins", sans-serif;
+}
+.sales-section {
+  margin-top: 10rem;
+  margin: 0 15rem;
+  background-color: aliceblue;
+  height: 100%;
+}
+.sales-title-section {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  margin-bottom: 5rem;
+}
+.sales-title-section h1 {
+  font-size: 1.8rem;
+  font-weight: lighter;
+  color: rgb(52, 51, 51);
+}
+.sales-title-section .sellers-link {
+  font-size: 1.2rem;
+  font-weight: normal;
+  color: rgb(52, 51, 51);
+  text-decoration: none;
+  padding-bottom: 0.3rem;
+  border-bottom: 2px solid rgb(52, 51, 51);
+  transition: all 0.4s ease-in-out;
+}
+.sales-title-section .sellers-link:hover {
+  color: orange;
+  border-bottom: 2px solid orange;
+}
