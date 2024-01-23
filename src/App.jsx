@@ -9,6 +9,7 @@ import './App.css';
 import SignUp from './Pages/SignUp';
 import SignIn from './Pages/SignIn';
 import { ToastContainer } from 'react-toastify';
+import Cart from './Pages/Cart';
 function App() {
 
   return (
@@ -25,6 +26,7 @@ function App() {
         <Route path="/log-in" element={<SignIn />} />
 
         <Route path="*" element={<PageNotFound />} />
+        <Route path="/cart" element={<Cart />} />
       </Routes>
 
     </>

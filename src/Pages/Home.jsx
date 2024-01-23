@@ -3,6 +3,8 @@ import Layout from '../Components/Layout/Layout'
 import '../styles/PagesStyles.css';
 // import MainBg from '../images/bg-images/AdobeStock_627487361_Preview.jpeg';
 import { Link } from 'react-router-dom';
+import CardSales from '../Components/Cards/CardSales';
+import ProductSection from '../Components/Cards/ProductSection';
 
 const Home = () => {
   // const images = [
@@ -50,8 +52,19 @@ const Home = () => {
             <h1>Sales</h1>
             <p><Link to="/sale" className='sellers-link'>VIEW ALL BEST SELLERS</Link></p>
           </div>
+          <div className="sales-ad-section">
+            <CardSales />
+          </div>
         </div>
       </div>
+
+
+      {/* Product Section */}
+      <div className="product-container">
+        <ProductSection />
+      </div>
+
+
 
     </Layout>
   )
