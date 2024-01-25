@@ -1,9 +1,10 @@
 import React from 'react';
-import '../../styles/CardStyles.css';
-import Saree from '../../images/product_images/saree.avif';
-import Jewellery from '../../images/product_images/jewellery.jpg';
-import Bags from '../../images/product_images/bags.jpg'; import { Link } from 'react-router-dom';
-<Link></Link>
+import '../CardStyles.css';
+import Saree from '../../../images/product_images/saree.avif';
+import Jewellery from '../../../images/product_images/jewellery.jpg';
+import Bags from '../../../images/product_images/bags.jpg';
+import { Link } from 'react-router-dom';
+
 
 // const width = 400;
 // const height = 500;

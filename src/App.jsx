@@ -1,15 +1,16 @@
 import { Routes, Route } from 'react-router-dom';
-import Home from './Pages/Home';
-import Sale from './Pages/Sale';
 import Shop from './Pages/Shop';
 import Contact from './Pages/Contact';
 import About from './Pages/About';
 import PageNotFound from './Pages/PageNotFound';
 import './App.css';
-import SignUp from './Pages/SignUp';
-import SignIn from './Pages/SignIn';
+
 import { ToastContainer } from 'react-toastify';
 import Cart from './Pages/Cart';
+import SignUp from './Pages/Auth-sign/SignUp';
+import SignIn from './Pages/Auth-sign/SignIn';
+import Home from './Components/Home/Home';
+import Sale from './Pages/Sale/Sale';
 function App() {
 
   return (

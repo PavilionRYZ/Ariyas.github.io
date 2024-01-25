@@ -8,10 +8,115 @@
 
 /*-----------Footer component---------------------------*/
 .footer {
-  background-color: rgb(65, 63, 63);
-  height: 20vh;
-  color: white;
+  height: fit-content;
+  color: black;
   font-family: "Poppins", sans-serif;
+  margin: 0 20rem;
+}
+.footer-logistics {
+  display: flex;
+  justify-content: space-evenly;
+  padding-top: 2.5rem;
+  padding-bottom: 2.5rem;
+}
+.secure-pay,
+.express-ship,
+.return-free {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.secure-pay i,
+.express-ship i,
+.return-free i {
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+  color: orange;
+  font-size: 1.3rem;
+}
+.divider-footer {
+  height: 2px;
+  border: 1px solid rgba(0, 0, 0, 0.46);
+  background-color: 1px solid rgba(0, 0, 0, 0.35);
+  margin-bottom: 7rem;
+}
+.ariyas-about-shop {
+  padding-top: 2rem;
+  padding-bottom: 3rem;
+  display: flex;
+  justify-content: space-between;
+}
+.ariyas-details h2,
+.ariyas-details p {
+  margin-bottom: 1rem;
+}
+.ariyas-details h2 {
+  margin-bottom: 2rem;
+}
+
+.ariyas-shop h2,
+.ariyas-shop p {
+  margin-bottom: 1rem;
+}
+.ariyas-shop h2 {
+  margin-bottom: 2rem;
+}
+
+.ariyas-about h2,
+.ariyas-about p {
+  margin-bottom: 1rem;
+}
+.ariyas-about h2 {
+  margin-bottom: 2rem;
+}
+.need-help h2,
+.need-help p {
+  margin-bottom: 1rem;
+}
+.need-help h2 {
+  margin-bottom: 2rem;
+}
+.ariyas-details h2,
+.ariyas-shop h2,
+.ariyas-about h2,
+.need-help h2 {
+  font-weight: lighter;
+  color: rgba(0, 0, 0, 0.728);
+  font-size: 1.7rem;
+}
+.ariyas-details p,
+.ariyas-shop p,
+.ariyas-about p,
+.need-help p {
+  font-size: 1rem;
+  color: rgba(0, 0, 0, 0.728);
+}
+.ariyas-links {
+  margin-bottom: 5rem;
+}
+.ariyas-links i {
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+  font-size: 1.2rem;
+  transition: all 0.4s ease-in-out;
+  cursor: pointer;
+}
+.ariyas-links i:hover {
+  color: orange;
+}
+.footer-payment {
+  padding: 0 20rem;
+  display: flex;
+  justify-content: flex-end;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  background-color: rgba(240, 248, 255, 0.777);
+}
+.footer-payment i {
+  font-size: 1.4rem;
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+  color: rgb(6, 152, 242);
 }
 
 /*----------------------Navigation Bar-----------------------------*/

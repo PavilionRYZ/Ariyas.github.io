@@ -1,0 +1,117 @@
+.sale-container {
+  width: 100%;
+  height: fit-content;
+  font-family: "Poppins", sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.sale-h1 {
+  padding: 3rem 0;
+  font-size: 4rem;
+  text-align: center;
+}
+.sale-h1 h1 {
+  font-weight: bolder;
+}
+
+.sale-view-offer {
+  margin-top: 25rem;
+  margin-bottom: 5rem;
+  margin-left: 15rem;
+  margin-right: 15rem;
+}
+
+/*------------------------------Gift Section-----------------------------*/
+.gift-container {
+  height: fit-content;
+  background-color: rgba(240, 248, 255, 0.659);
+}
+.gift-section {
+  display: flex;
+  justify-content: space-around;
+  margin: 0 20rem;
+  padding-bottom: 2rem;
+  padding-top: 2rem;
+}
+.gift-title {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-family: "Poppins", sans-serif;
+  letter-spacing: 1.5px;
+  line-height: 1.4;
+}
+.gift-title h2 {
+  font-size: 2.5rem;
+}
+.gift-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.6rem;
+  margin-right: 1rem;
+}
+.divider {
+  height: 10vh;
+  width: 1px solid black;
+  border: 1px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.gift-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.gift-btn button {
+  padding: 1rem 1rem;
+  color: white;
+  background-color: orange;
+  border: none;
+  font-size: 1.1rem;
+}
+
+/*-------------------------SaleSnap.jsx-------------------------------*/
+.sale-snap {
+  height: fit-content;
+  width: 100%;
+}
+.sale-snap-container {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.582), rgba(0, 0, 0, 0.417)),
+    url("../../images/bg-images/AdobeStock_9696137_Preview.jpeg");
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  padding: 15rem 0;
+  color: white;
+  text-align: center;
+}
+.sale-snap-container h1,
+.sale-snap-container p {
+  margin-bottom: 2rem;
+}
+.sale-snap-container h1 {
+  font-family: "Poppins", sans-serif;
+  font-size: 3.5rem;
+  font-weight: normal;
+}
+.sale-snap-container p {
+  font-family: "Poppins", sans-serif;
+  font-size: 1.3rem;
+  font-weight: lighter;
+}
+.btn-snap-sale button {
+  border: none;
+  padding: 1rem 1.5rem;
+  font-size: 1rem;
+  font-family: "Poppins", sans-serif;
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+  font-weight: bold;
+  transition: all 0.4s ease-in-out;
+}
+.btn-snap-sale button:hover {
+  background-color: orange;
+}

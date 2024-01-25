@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import { Link } from 'react-router-dom';
-import Layout2 from '../Components/Layout/Layout2';
+import Layout2 from './../../Components/Layout/Layout2';
 
 const SignIn = () => {
 

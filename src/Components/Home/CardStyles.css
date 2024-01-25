@@ -154,3 +154,104 @@
 .goods:hover .layer {
   height: 100%;
 }
+
+/*---------------------CardProducts.jsx------------------------*/
+.card-details-shop {
+  margin-bottom: 3rem;
+  margin-top: 3rem;
+}
+.card-det {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1.5fr));
+  grid-gap: 40px;
+}
+.card-det-list {
+  position: relative;
+  padding: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  transition: all 0.3s ease-in-out;
+  border-radius: 10px;
+  box-shadow: 0 0.6rem 0.7rem rgba(8, 8, 8, 0.177),
+    0.4rem 0.4rem 0.3rem rgba(209, 208, 208, 0.14),
+    0.2rem 0.4rem 0.2rem rgba(8, 8, 8, 0.076),
+    0.5rem 0.1rem 0.1rem rgba(8, 8, 8, 0.127);
+}
+.card-det-list:hover {
+  background-color: rgba(0, 0, 0, 0.163);
+}
+.card-title-det {
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+.card-title-det p {
+  margin-top: 0.5rem;
+}
+.img-det img {
+  width: 300px;
+  height: 300px;
+  display: block;
+  background-position: center;
+  background-size: cover;
+  padding: 2rem;
+}
+
+/*-------------------HomeSnap.jsx-----------------------*/
+.home-snap-container {
+  width: 100%;
+  height: fit-content;
+}
+.image-snap-container {
+  background-image: linear-gradient(
+      to left,
+      rgba(0, 0, 0, 0.58),
+      rgba(0, 0, 0, 0.561)
+    ),
+    url("../../images/bg-images/AdobeStock_620625599_Preview.jpeg");
+  height: fit-content;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+.snap-title {
+  padding-top: 10rem;
+  padding-bottom: 10rem;
+  color: white;
+  font-family: "Poppins", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  gap: 1rem;
+}
+.snap-title h2 {
+  font-size: 3.5rem;
+  margin-bottom: 1rem;
+}
+.snap-title h4 {
+  font-size: 2rem;
+  margin-bottom: 0.7rem;
+}
+.snap-title p {
+  font-size: 1.2rem;
+  margin-bottom: 0.7rem;
+}
+.btn-snap-section button {
+  padding: 0.8rem 1rem;
+  font-size: 1.1rem;
+  font-weight: bold;
+  border: none;
+  margin-top: 0.2rem;
+  margin-left: 0.3rem;
+  margin-right: 0.3rem;
+  transition: all 0.4s ease-in-out;
+  cursor: pointer;
+}
+.btn-snap-section button:hover {
+  background-color: orange;
+}

@@ -1,9 +1,9 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import Bags from '../../images/product_images/bag1.jpg';
-import SareesPro from '../../images/product_images/saree1.avif';
-import WoodenCraft from '../../images/product_images/wooden_craft.avif';
-import ClayProducts from '../../images/product_images/clay_products.avif';
+import Bags from '../../../images/product_images/bag1.jpg';
+import SareesPro from '../../../images/product_images/saree1.avif';
+import WoodenCraft from '../../../images/product_images/wooden_craft.avif';
+import ClayProducts from '../../../images/product_images/clay_products.avif';
 
 const ProductSection = () => {
   return (

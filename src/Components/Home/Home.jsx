@@ -1,10 +1,13 @@
-import React, { useEffect, useState } from 'react'
-import Layout from '../Components/Layout/Layout'
-import '../styles/PagesStyles.css';
+import React from 'react'
+import './HomeStyle.css';
 // import MainBg from '../images/bg-images/AdobeStock_627487361_Preview.jpeg';
 import { Link } from 'react-router-dom';
-import CardSales from '../Components/Cards/CardSales';
-import ProductSection from '../Components/Cards/ProductSection';
+import CardSales from '../Home/Cards/CardSales';
+import HomeSnap from '../Home/HomeSnap';
+import CardSales1 from '../Home/Cards/CardSales1';
+import CardProducts from '../Home/Cards/CardProducts';
+import ProductSection from '../Home/Cards/ProductSection';
+import Layout from './../Layout/Layout';
 
 const Home = () => {
   // const images = [
@@ -64,7 +67,29 @@ const Home = () => {
         <ProductSection />
       </div>
 
+      {/* Repeatation of the same sales code but just a bit modified based on the requirement */}
+      <div className="sales-container">
+        <div className="sales-section">
+          <div className="sales-title-section">
+            <h1>New Arrivals</h1>
+            <p><Link to="/sale" className='sellers-link'>VIEW ALL BEST SELLERS</Link></p>
+          </div>
+          <div className="sales-ad-section">
+            <CardSales1 />
+          </div>
+        </div>
+      </div>
 
+      {/* Products Card Details Section */}
+
+      <div className="product-card-container">
+        <CardProducts />
+      </div>
+
+      {/* The entire summarized snapshot of home page */}
+      <div className="home-snapshot-section">
+        <HomeSnap />
+      </div>
 
     </Layout>
   )
