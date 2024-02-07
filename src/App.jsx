@@ -1,18 +1,17 @@
-import { Routes, Route } from 'react-router-dom';
-import Shop from './Pages/Shop';
-import Contact from './Pages/Contact';
-import About from './Pages/About';
-import PageNotFound from './Pages/PageNotFound';
-import './App.css';
+import { Routes, Route } from "react-router-dom"
+import Shop from "./Pages/Shop"
+import Contact from "./Pages/Contact/Contact"
+import About from "./Pages/About/About"
+import PageNotFound from "./Pages/PageNotFound"
+import "./App.css"
 
-import { ToastContainer } from 'react-toastify';
-import Cart from './Pages/Cart';
-import SignUp from './Pages/Auth-sign/SignUp';
-import SignIn from './Pages/Auth-sign/SignIn';
-import Home from './Components/Home/Home';
-import Sale from './Pages/Sale/Sale';
+import { ToastContainer } from "react-toastify"
+import Cart from "./Pages/Cart"
+import SignUp from "./Pages/Auth-sign/SignUp"
+import SignIn from "./Pages/Auth-sign/SignIn"
+import Home from "./Components/Home/Home"
+import Sale from "./Pages/Sale/Sale"
 function App() {
-
   return (
     <>
       {/* Routes for the pages */}
@@ -29,7 +28,6 @@ function App() {
         <Route path="*" element={<PageNotFound />} />
         <Route path="/cart" element={<Cart />} />
       </Routes>
-
     </>
   )
 }
