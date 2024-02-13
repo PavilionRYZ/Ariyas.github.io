@@ -5,10 +5,6 @@
 }
 
 .login-container {
-  /* height: 1024px;
-  position: relative;
-  width: 1440px; */
-
   position: relative;
   width: 100%;
   height: 100vh;
@@ -19,50 +15,24 @@
   background-image: url(../../../images/bg-images/AdobeStock_33529904_Preview.jpeg);
   background-position: 50% 50%;
   background-size: cover;
-  /* border-radius: 35px; */
   border-radius: 2.18rem;
   display: flex;
   flex-direction: column;
   gap: 36px;
-  /* left: 126px; */
   left: 280px;
-  /* padding: 32px; */
   padding: 2rem;
   position: absolute;
 
-  /* top: 88px; */
   top: 5.5rem;
-  /* width: 432px; */
   width: 27rem;
 }
 
 .login-container .welcomeback {
-  /* -webkit-background-clip: text !important;
-  -webkit-text-fill-color: transparent;
-
-  background: linear-gradient(
-    180deg,
-    rgb(255, 255, 255) 0%,
-    rgba(255, 255, 255, 0) 100%
-  );
-  background-clip: text;
-  color: transparent;
-  font-family: var(--display-sm-semibold-font-family);
-  font-size: var(--display-sm-semibold-font-size);
-  font-style: var(--display-sm-semibold-font-style);
-  font-weight: var(--display-sm-semibold-font-weight);
-  letter-spacing: var(--display-sm-semibold-letter-spacing);
-  line-height: var(--display-sm-semibold-line-height);
-  margin-top: -1px;
-  position: relative;
-  text-fill-color: transparent;
-  width: 444px; */
-
   -webkit-background-clip: text !important;
   -webkit-text-fill-color: transparent;
 
   background: linear-gradient(
-    /* 180deg, */ 180deg,
+    180deg,
     rgb(250, 245, 245) 0%,
     rgba(255, 255, 255, 0.588) 100%
   );
@@ -75,7 +45,6 @@
   letter-spacing: 0;
   line-height: 38px;
   position: relative;
-  /* text-fill-color: transparent; */
   top: 0;
   width: 444px;
 }
@@ -101,14 +70,6 @@
 }
 
 .login-container .span {
-  /* color: #ffffff;
-  font-family: var(--text-lg-regular-font-family);
-  font-size: var(--text-lg-regular-font-size);
-  font-style: var(--test-lg-regular-font-style);
-  font-weight: var(--text-lg-regular-font-weight);
-  letter-spacing: var(--text-lg-regular-letter-spacing);
-  line-height: var(--text-lg-regular-line-height); */
-
   color: #ffffff;
   font-family: "Inter-Regular", Helvetica;
   font-size: 18px;
@@ -119,14 +80,6 @@
 }
 
 .login-container .text-wrapper-2 {
-  /* color: #b76565;
-  font-family: var(--text-lg-regular-font-family);
-  font-size: var(--text-lg-regular-font-size);
-  font-style: var(--text-lg-regular-font-style);
-  font-weight: var(--text-lg-regular-font-weight);
-  letter-spacing: var(--text-lg-regular-letter-spacing);
-  line-height: var(--text-lg-regular-line-height); */
-
   color: #b76565;
   font-family: "Inter-Regular", Helvetica;
   font-size: 18px;
@@ -137,14 +90,6 @@
 }
 
 .login-container .text-wrapper-3 {
-  /* color: #afb2bf;
-  font-family: var(--text-lg-regular-font-family);
-  font-size: var(--text-lg-regular-font-size);
-  font-style: var(--text-lg-regular-font-style);
-  font-weight: var(--text-lg-regular-font-weight);
-  letter-spacing: var(--text-lg-regular-letter-spacing);
-  line-height: var(--text-lg-regular-line-height); */
-
   color: #afb2bf;
   font-family: "Inter-Regular", Helvetica;
   font-size: 18px;
