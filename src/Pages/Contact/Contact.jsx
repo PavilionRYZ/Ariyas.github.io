@@ -1,5 +1,5 @@
 import React, { useState } from "react"
-import "./Contactstyle.css"
+import "./ContactStyles.css"
 import Layout from "../../Components/Layout/Layout"
 
 const Contact = () => {

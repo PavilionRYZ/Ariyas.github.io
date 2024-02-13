@@ -1,0 +1,245 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.login-container {
+  /* height: 1024px;
+  position: relative;
+  width: 1440px; */
+
+  position: relative;
+  width: 100%;
+  height: 100vh;
+}
+
+.login-container .login-div-container {
+  align-items: flex-start;
+  background-image: url(../../../images/bg-images/AdobeStock_33529904_Preview.jpeg);
+  background-position: 50% 50%;
+  background-size: cover;
+  /* border-radius: 35px; */
+  border-radius: 2.18rem;
+  display: flex;
+  flex-direction: column;
+  gap: 36px;
+  /* left: 126px; */
+  left: 280px;
+  /* padding: 32px; */
+  padding: 2rem;
+  position: absolute;
+
+  /* top: 88px; */
+  top: 5.5rem;
+  /* width: 432px; */
+  width: 27rem;
+}
+
+.login-container .welcomeback {
+  /* -webkit-background-clip: text !important;
+  -webkit-text-fill-color: transparent;
+
+  background: linear-gradient(
+    180deg,
+    rgb(255, 255, 255) 0%,
+    rgba(255, 255, 255, 0) 100%
+  );
+  background-clip: text;
+  color: transparent;
+  font-family: var(--display-sm-semibold-font-family);
+  font-size: var(--display-sm-semibold-font-size);
+  font-style: var(--display-sm-semibold-font-style);
+  font-weight: var(--display-sm-semibold-font-weight);
+  letter-spacing: var(--display-sm-semibold-letter-spacing);
+  line-height: var(--display-sm-semibold-line-height);
+  margin-top: -1px;
+  position: relative;
+  text-fill-color: transparent;
+  width: 444px; */
+
+  -webkit-background-clip: text !important;
+  -webkit-text-fill-color: transparent;
+
+  background: linear-gradient(
+    /* 180deg, */ 180deg,
+    rgb(250, 245, 245) 0%,
+    rgba(255, 255, 255, 0.588) 100%
+  );
+  background-clip: text;
+  color: transparent;
+  font-family: "Inter-SemiBold", Helvetica;
+  font-size: 30px;
+  font-weight: 600;
+  left: 0;
+  letter-spacing: 0;
+  line-height: 38px;
+  position: relative;
+  /* text-fill-color: transparent; */
+  top: 0;
+  width: 444px;
+}
+
+.login-container .frame-frame {
+  height: 50px;
+  position: relative;
+  width: 444px;
+}
+
+.login-container .p {
+  color: transparent;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 18px;
+  font-weight: 400;
+  left: 0;
+  letter-spacing: 0;
+  line-height: 18px;
+  position: absolute;
+  top: -28px;
+
+  width: 444px;
+}
+
+.login-container .span {
+  /* color: #ffffff;
+  font-family: var(--text-lg-regular-font-family);
+  font-size: var(--text-lg-regular-font-size);
+  font-style: var(--test-lg-regular-font-style);
+  font-weight: var(--text-lg-regular-font-weight);
+  letter-spacing: var(--text-lg-regular-letter-spacing);
+  line-height: var(--text-lg-regular-line-height); */
+
+  color: #ffffff;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  letter-spacing: 0px;
+  line-height: 26px;
+}
+
+.login-container .text-wrapper-2 {
+  /* color: #b76565;
+  font-family: var(--text-lg-regular-font-family);
+  font-size: var(--text-lg-regular-font-size);
+  font-style: var(--text-lg-regular-font-style);
+  font-weight: var(--text-lg-regular-font-weight);
+  letter-spacing: var(--text-lg-regular-letter-spacing);
+  line-height: var(--text-lg-regular-line-height); */
+
+  color: #b76565;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  letter-spacing: 0px;
+  line-height: 26px;
+}
+
+.login-container .text-wrapper-3 {
+  /* color: #afb2bf;
+  font-family: var(--text-lg-regular-font-family);
+  font-size: var(--text-lg-regular-font-size);
+  font-style: var(--text-lg-regular-font-style);
+  font-weight: var(--text-lg-regular-font-weight);
+  letter-spacing: var(--text-lg-regular-letter-spacing);
+  line-height: var(--text-lg-regular-line-height); */
+
+  color: #afb2bf;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  letter-spacing: 0px;
+  line-height: 26px;
+}
+
+.login-container .text-wrapper-4 {
+  color: #c5f246;
+  font-family: "Abhaya Libre-Bold", Helvetica;
+  /* font-size: 16px; */
+  font-size: 15px;
+  font-weight: 700;
+
+  line-height: 24px;
+}
+
+/* form */
+.login-container .login-form {
+  align-items: flex-start;
+  align-self: stretch;
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  gap: 20px;
+  position: relative;
+  width: 100%;
+}
+
+/* [label field ] email address and password section */
+.login-container .inputfield {
+  color: #ffffff;
+  align-self: stretch;
+  flex: 0 0 auto;
+  width: 100%;
+}
+
+/* password box   */
+.login-container .inputfield-frame {
+  /* background-color: #b04f4f; */
+
+  align-items: center;
+  background-color: #b04f4f;
+  border-radius: 8px;
+  display: flex;
+  gap: 12px;
+  overflow: hidden;
+  padding: 12px;
+  position: relative;
+}
+
+.login-container .sign-btn {
+  align-self: stretch;
+  display: flex;
+  flex: 0 0 auto;
+  justify-content: center;
+  width: 100%;
+}
+
+.login-container .login-right {
+  /* height: 426px; */
+  height: 26.62rem;
+  left: 46.37rem;
+  position: absolute;
+  top: 14.75rem;
+  /* width: 633px; */
+  width: 39.56rem;
+}
+
+.login-container .overlap {
+  height: 31.25rem;
+  position: absolute;
+}
+
+.login-container .login {
+  background-image: url(../../../images/bg-images/AdobeStock_33529904_Preview.jpeg);
+  height: 21.87rem;
+  /* left: 90px; */
+  left: 5.62rem;
+  object-fit: cover;
+  position: absolute;
+  /* top: 70px; */
+  top: -4.37rem;
+  /* width: 500px; */
+  width: 31.25rem;
+}
+
+.login-container .adobestock {
+  background-image: url(../../../images/bg-images/AdobeStock_549310892_Preview.jpeg);
+  height: 20rem;
+  left: 3.43rem;
+  object-fit: cover;
+  position: absolute;
+  top: -6.25rem;
+  width: 31.25rem;
+}

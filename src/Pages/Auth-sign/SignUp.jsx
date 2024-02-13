@@ -1,48 +1,47 @@
-import React, { useState } from 'react'
-import { Link } from 'react-router-dom'
-import { toast } from 'react-toastify';
-import Layout2 from './../../Components/Layout/Layout2';
+import React, { useState } from "react"
+import { Link } from "react-router-dom"
+import { toast } from "react-toastify"
+import Layout2 from "./../../Components/Layout/Layout2"
 
 const SignUp = () => {
-
-
   // Use of the hooks forr the register page
-  const [firstName, setFirstName] = useState("");
-  const [lastName, setLastName] = useState("");
+  const [firstName, setFirstName] = useState("")
+  const [lastName, setLastName] = useState("")
 
-  const [email, setEmail] = useState("");
+  const [email, setEmail] = useState("")
 
-  const [phone, setPhone] = useState("");
+  const [phone, setPhone] = useState("")
 
-  const [password, setPassword] = useState("");
-  const [finalPassword, setFinalPassword] = useState("");
+  const [password, setPassword] = useState("")
+  const [finalPassword, setFinalPassword] = useState("")
 
   // Form submit function
   const submitHandler = async (e) => {
     // This stops the default behavior of javascript such as refreshed the website when we try to submit the form
-    e.preventDefault();
-
+    e.preventDefault()
   }
   return (
     <>
       <Layout2 title={"Sign up - Avail all the best offers"}>
         <div className="register-container">
           <div className="form-container">
-
             {/* Form Section */}
             <form className="form-mediator" onSubmit={submitHandler}>
               <div className="form-heading">
                 <h1>Sign Up to Discover Local Treasures</h1>
               </div>
               <div className="para-content">
-                <p>Buy & Sell today, tomorrow and beyond <span>Empower Local Artisans</span></p>
+                <p>
+                  Buy & Sell today, tomorrow and beyond{" "}
+                  <span>Empower Local Artisans</span>
+                </p>
               </div>
               <div className="input-field-name">
                 <div className="first-name">
                   <label>First Name*</label>
                   <input
-                    type='text'
-                    placeholder='Enter first name'
+                    type="text"
+                    placeholder="Enter first name"
                     className="input-name"
                     value={firstName}
                     onChange={(e) => setFirstName(e.target.value)}
@@ -52,8 +51,8 @@ const SignUp = () => {
                 <div className="last-name">
                   <label>Last Name*</label>
                   <input
-                    type='text'
-                    placeholder='Enter last name'
+                    type="text"
+                    placeholder="Enter last name"
                     className="input-name"
                     value={lastName}
                     onChange={(e) => setLastName(e.target.value)}
@@ -70,7 +69,6 @@ const SignUp = () => {
                   value={email}
                   onChange={(e) => setEmail(e.target.value)}
                   required
-
                 />
               </div>
               <div className="phone-section">
@@ -82,11 +80,10 @@ const SignUp = () => {
                     name="countryCode"
                     value="+91"
                     readOnly
-
                   />
                   <input
                     type="text"
-                    placeholder='12345 67890'
+                    placeholder="12345 67890"
                     value={phone}
                     onChange={(e) => setPhone(e.target.value)}
                     required
@@ -98,14 +95,14 @@ const SignUp = () => {
                 <div className="init-con-pass">
                   <input
                     type="password"
-                    placeholder='Enter Password'
+                    placeholder="Enter Password"
                     value={password}
                     onChange={(e) => setPassword(e.target.value)}
                     required
                   />
                   <input
                     type="password"
-                    placeholder='Enter Password'
+                    placeholder="Enter Password"
                     value={finalPassword}
                     onChange={(e) => setFinalPassword(e.target.value)}
                     required
@@ -113,7 +110,9 @@ const SignUp = () => {
                 </div>
               </div>
               <div className="submit-btn">
-                <button><Link to="/log-in">Submit</Link></button>
+                <button>
+                  <Link to="/log-in">Submit</Link>
+                </button>
               </div>
             </form>
           </div>
