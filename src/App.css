@@ -119,15 +119,30 @@
   color: rgb(6, 152, 242);
 }
 
+.footer-links {
+  cursor: pointer;
+  transition: all 0.4s ease-in-out;
+}
+.footer-links:hover {
+  color: orange;
+}
+.footer-shop-links {
+  cursor: pointer;
+  transition: all 0.4s ease-in-out;
+}
+.footer-shop-links:hover {
+  color: orange;
+}
+
 /*----------------------Navigation Bar-----------------------------*/
-.nav-container {
+#nav-container {
   width: 100%;
   height: fit-content;
   box-shadow: 0 8px 6px -6px gray;
   --webkit-box-shadow: 0 8px 6px -6px gray;
   border-bottom: 0.5px solid gray;
 }
-nav {
+#nav-container nav {
   display: flex;
   justify-content: space-between;
   padding-left: 4rem;
@@ -143,12 +158,11 @@ nav {
   height: 100%;
   padding-left: 1rem;
   padding-right: 1rem;
+  cursor: pointer;
 }
-.list-content ul li {
+.list-content ul .nav-links {
   margin: 1rem;
   list-style: none;
-}
-.list-content ul li .nav-links {
   text-decoration: none;
   position: relative;
   font-size: 20px;
@@ -157,7 +171,7 @@ nav {
   color: orange;
   font-weight: bold;
 }
-.list-content ul li .nav-links::after {
+.list-content ul .nav-links::after {
   text-decoration: none;
   font-weight: bold;
   font-size: 1.1rem;
@@ -171,7 +185,7 @@ nav {
   bottom: -6px;
   transition: 0.5s;
 }
-.list-content ul li .nav-links:hover::after {
+.list-content ul .nav-links:hover::after {
   color: orange;
   width: 100%;
 }
@@ -179,6 +193,19 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+.icons-nav ul {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.icons-nav ul li {
+  list-style: none;
+  cursor: pointer;
+  transition: all 0.4s ease-in-out;
+}
+.icons-nav ul li:hover {
+  filter: invert(80);
 }
 .log-sign {
   padding-left: 0.5rem;
@@ -188,18 +215,19 @@ nav {
   display: flex;
   justify-content: space-between;
 }
-.log-sign button {
+.log-sign .btnAuth {
+  cursor: pointer;
   background-color: orange;
   border: none;
   padding: 0.7rem 0.9rem;
   border-radius: 0.4rem;
-}
-.log-sign button a {
-  text-decoration: none;
   color: white;
   font-family: "Poppins", sans-serif;
+  transition: all 0.4s ease-in-out;
 }
-
+.log-sign .btnAuth:hover {
+  background-color: rgb(242, 104, 53);
+}
 .active-link {
   border-bottom: 3px solid orange;
 }

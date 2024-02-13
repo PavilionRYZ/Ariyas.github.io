@@ -1,7 +1,7 @@
 import React from 'react'
 import { Helmet } from 'react-helmet';
 import { ToastContainer } from 'react-toastify';
-import Header from './Header';
+import Header from './Header/Header';
 
 const Layout2 = ({ children, title, description, keywords, author }) => {
   return (

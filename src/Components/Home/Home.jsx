@@ -1,4 +1,5 @@
-import React from 'react'
+/* eslint-disable no-unused-vars */
+import React, { useEffect } from 'react'
 import './HomeStyle.css';
 // import MainBg from '../images/bg-images/AdobeStock_627487361_Preview.jpeg';
 import { Link } from 'react-router-dom';
@@ -10,6 +11,7 @@ import ProductSection from '../Home/Cards/ProductSection';
 import Layout from './../Layout/Layout';
 
 const Home = () => {
+
   // const images = [
   //   '../images/bg-images/AdobeStock_627487361_Preview.jpeg',
   //   '../images/bg-images/AdobeStock_596562754_Preview.jpeg',
@@ -31,6 +33,8 @@ const Home = () => {
   //   backgroundPosition: 'center',
   //   backgroundSize: 'cover',
   // };
+
+
   return (
     <Layout>
       <div className="container">

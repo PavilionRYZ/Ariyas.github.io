@@ -1,6 +1,12 @@
+/* eslint-disable no-unused-vars */
 import React from 'react'
+import { useNavigate } from 'react-router-dom';
+
 
 const Footer = () => {
+
+  const navigate = useNavigate();
+
   return (
     <>
       <div className="footer">
@@ -39,17 +45,17 @@ const Footer = () => {
           <div className="ariyas-shop">
             <h2>Shop</h2>
             <div className="ariyas-address">
-              <p>Dress</p>
-              <p>Handmade Trinkets</p>
-              <p>Bags</p>
+              <p onClick={() => navigate('/shop')} className="footer-shop-links">Dress</p>
+              <p onClick={() => navigate('/shop')} className="footer-shop-links">Handmade Trinkets</p>
+              <p onClick={() => navigate('/shop')} className="footer-shop-links">Bags</p>
             </div>
           </div>
 
           <div className="ariyas-about">
             <h2>About</h2>
             <div className="ariyas-address">
-              <p>Home</p>
-              <p>Contact</p>
+              <p onClick={() => navigate('/')} className="footer-links">Home</p>
+              <p onClick={() => navigate('/contact')} className="footer-links">Contact</p>
               <p>Become a Seller</p>
             </div>
           </div>
@@ -57,8 +63,8 @@ const Footer = () => {
           <div className="need-help">
             <h2>Need Help?</h2>
             <div className="ariyas-address">
-              <p>Home</p>
-              <p>Contact</p>
+              <p onClick={() => navigate('/')} className="footer-links">Home</p>
+              <p onClick={() => navigate('/contact')} className="footer-links">Contact</p>
               <p>Become a Seller</p>
             </div>
 
