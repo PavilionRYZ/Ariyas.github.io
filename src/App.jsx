@@ -14,6 +14,7 @@ import { ToastContainer } from "react-toastify"
 import SignIn from './Pages/Auth-sign/Sign-in/SignIn';
 import SignUp from './Pages/Auth-sign/SignUp';
 
+// import About from './Pages/About';
 function App() {
   return (
     <>
@@ -23,7 +24,7 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/sale" element={<Sale />} />
           <Route path="/shop" element={<Shop />} />
-          <Route path="/about" element={<About />} />
+          {/* <Route path="/about" element={<About />} /> */}
           <Route path="/contact" element={<Contact />} />
           <Route path="/signup" element={<SignUp />} />
           <Route path="/login" element={<SignIn />} />
