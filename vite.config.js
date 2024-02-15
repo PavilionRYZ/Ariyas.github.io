@@ -6,8 +6,8 @@ export default defineConfig({
   plugins: [react()],
   "proxy": {
     "/api/v1": {
-      "target": "http://localhost:5000",
-      "changeOrigin": true,
+      target: "http://localhost:5000",
+      changeOrigin: true,
       "rewrite": (path) => path.replace(/^\/api\/v1/, '')
     }
   }
