@@ -1,0 +1,210 @@
+.b {
+  color: white;
+  /* background-color: linear-gradient(
+    180deg,
+    rgb(255, 255, 255) 0 0%,
+    rgba(255, 255, 255, 0) 100%
+  ); */
+  font-weight: 600;
+  font-size: 1.875rem;
+  line-height: 2.375rem;
+}
+
+.c {
+  font-size: 1.125rem;
+  line-height: 1.625rem;
+  margin-top: -10px;
+}
+
+.d {
+  color: white;
+}
+
+.e {
+  color: yellow;
+  font-style: italic;
+}
+
+/*    button  design     */
+
+.a {
+  display: flex;
+  padding: 0.25rem;
+  column-gap: 0.25rem;
+  margin-top: -10px;
+  margin-bottom: 1.5rem;
+  border-radius: 9999px;
+  max-width: max-content;
+}
+
+/*   Start   */
+
+.custom-button {
+  background-color: #04aa6d;
+  color: white;
+  padding: 10px 24px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.4s;
+}
+
+.custom-button:hover {
+  background-color: #3e8e41;
+}
+
+/* Optional: Add a specific theme for student */
+.student-theme {
+  background-color: #e91e63;
+  /* Add any other student-specific styles here */
+}
+
+/*      End    */
+
+/* paragraph */
+.k .l .f {
+  font-size: 0.875rem;
+  color: #111827;
+  margin-bottom: 1rem;
+  line-height: 1.375rem;
+}
+
+/* label  */
+.m {
+  width: 100%;
+  color: white;
+}
+
+/* star  */
+.star {
+  color: #ef0707;
+}
+
+/* input  */
+.g {
+  /* background-color: #111827; */
+  background-color: #b04f4f;
+  border-radius: 0.5rem;
+  color: white;
+  width: 100%;
+  padding: 12px;
+}
+
+/* countrycode  */
+#countryCode {
+  background-color: #b04f4f;
+  border-radius: 0.5rem;
+  color: white;
+  width: 15%;
+  padding: 12px;
+  /* justify-content: space-between; */
+  /* display: flex; */
+  /* position: relative; */
+}
+
+/* main div  */
+.h {
+  display: flex;
+  justify-content: space-between;
+  width: 91.67%;
+  max-width: 1160px;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  margin-left: auto;
+  margin-right: auto;
+
+  margin-left: 3rem;
+  margin-top: 0;
+  margin-bottom: 0;
+  overflow-x: hidden;
+}
+
+.i {
+  background-image: url(../../../images/bg-images/AdobeStock_53319238_Preview.jpeg);
+  /* background-image: url(../../../images/bg-images/AdobeStock_296165255_Preview.jpeg); */
+  width: 91.666667%;
+  max-width: 450px;
+  border-radius: 8px;
+}
+
+.j {
+  width: 100%;
+  /* background-color: #ffee58; */
+  background-color: orange;
+  border-radius: 8px;
+  font-weight: 500;
+  color: #1a1a1a;
+  padding: 12px 8px;
+  margin-top: 6px;
+}
+
+/* span tag  */
+.span {
+  position: absolute;
+  right: 3px;
+  top: 38px;
+  cursor: pointer;
+}
+
+/* link  */
+.link {
+  font-size: 0.75rem;
+  /* margin-top: 0.25rem; */
+
+  color: #64a3d5;
+  max-width: max-content;
+  margin-left: auto;
+}
+
+/* form section div  & password div*/
+.k {
+  display: flex;
+  /* flex-direction: column; */
+  gap: 5px;
+}
+
+/* emai address  */
+#email {
+  width: 100%;
+}
+
+/* password icon */
+.m {
+  position: relative;
+}
+
+/* phonenumber labelbox  */
+.r {
+  background-color: #b04f4f;
+  border-radius: 0.5rem;
+  color: white;
+  /* gap: -80px; */
+  /* justify-content: space-between; */
+  /* display: flex; */
+  /* flex-direction: row; */
+  padding: 12px;
+  width: 78.8%;
+  /* width: 80%; */
+}
+
+/* right part  */
+.right-side {
+  /* position: relative; */
+  width: 91.67%;
+  max-width: 450px;
+  order: 1;
+}
+
+/* .x { */
+/* background-image: url(../../../assets/frame.png); */
+/* position: absolute; */
+/* width: 558px;
+  height: 504px; */
+/* } */
+
+.y {
+  background-image: url(../../../images/bg-images/AdobeStock_627487361_Preview.jpeg);
+  position: absolute;
+  width: 558px;
+  height: 504px;
+}

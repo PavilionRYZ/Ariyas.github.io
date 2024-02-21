@@ -7,7 +7,7 @@ import "./App.css"
 
 import { ToastContainer } from "react-toastify"
 import Cart from "./Pages/Cart"
-import SignUp from "./Pages/Auth-sign/SignUp"
+import SignUp from "./Pages/Auth-sign/SignUp/SignUp"
 import SignIn from "./Pages/Auth-sign/SignIn/SignIn"
 import Home from "./Components/Home/Home"
 import Sale from "./Pages/Sale/Sale"
